@@ -1,0 +1,11 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.ContinuityDifferentiationQuestionsLemmaCanonicalLaneLean.ContinuityDifferentiationTheorem
+
+namespace HautevilleHouse
+namespace ContinuityDifferentiationQuestionsLemmaCanonicalLaneLean
+
+def DifferentiationWitnessClosed (O : DifferentiationAdmittedObject) : Prop :=
+  O.theorem.differentiableImpliesContinuity
+
+end ContinuityDifferentiationQuestionsLemmaCanonicalLaneLean
+end HautevilleHouse
